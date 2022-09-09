@@ -1,0 +1,312 @@
+{
+    "design": {
+        "name": "Xoodyak_DOM_first_order",
+        "rtl": {
+            "sources": [
+                {
+                    "_path": "src_rtl/CryptoCore_SCA.vhd",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd",
+                    "type": "vhdl",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "243157a0df07466a2559ebc6b81b8356db08a93e837898a10220f2612cfb7b34"
+                },
+                {
+                    "_path": "src_rtl/design_pkg.vhd",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/design_pkg.vhd",
+                    "type": "vhdl",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "1bad5fb8a27984b7c5fb673c82f8558971370f7d52ff78b0144b29896acc1cd9"
+                },
+                {
+                    "_path": "src_rtl/LWC_config_32.vhd",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC_config_32.vhd",
+                    "type": "vhdl",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "9dc52d35d53e4d5079910d266eeda3b02c39d3ba46e16e0ae590861469d0a79f"
+                },
+                {
+                    "_path": "src_rtl/xoodoo_globals.vhd",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_globals.vhd",
+                    "type": "vhdl",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "db0842e6f6beba3d462f998b00fb52869fee1be53080d4f86f1eaa598f61a1cc"
+                },
+                {
+                    "_path": "src_rtl/xoodoo_n_rounds_SCA.v",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_n_rounds_SCA.v",
+                    "type": "verilog",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "40b7754f346602d4287dfe056d59b2e888f3653111c59ae0d19cdba2c9de3e97"
+                },
+                {
+                    "_path": "src_rtl/xoodoo_register_SCA.v",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_register_SCA.v",
+                    "type": "verilog",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "56534176b18ba213bfaec589a6b35bc106cddb3ea625172468303572bf8dad1b"
+                },
+                {
+                    "_path": "src_rtl/xoodoo_round_SCA.v",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_round_SCA.v",
+                    "type": "verilog",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "be68f974c262d706dbd3ad6a60d7eaa88a554ab9542aed389c2084badaafd259"
+                },
+                {
+                    "_path": "src_rtl/xoodoo_SCA.v",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_SCA.v",
+                    "type": "verilog",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "54ae7c8657bcebde88688b28fcc30942b36206c063810dcf71fd63e5cac28f0b"
+                },
+                {
+                    "_path": "src_rtl/LWC/data_piso.vhd",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/data_piso.vhd",
+                    "type": "vhdl",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "107edad87847af4d749f389cb5ac9e85827fbdce5a2c9b5035e0f51225301e3c"
+                },
+                {
+                    "_path": "src_rtl/LWC/data_sipo.vhd",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/data_sipo.vhd",
+                    "type": "vhdl",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "e4ddf95dd77d72cff9ee7428c711bdf548417d63b823b32a3bed7bacbd1f28b0"
+                },
+                {
+                    "_path": "src_rtl/LWC/FIFO.vhd",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/FIFO.vhd",
+                    "type": "vhdl",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "86e7cca39390bec9be4229932a9f367cdacce10d0f61e467d0c4ff03c89b8dd9"
+                },
+                {
+                    "_path": "src_rtl/LWC/key_piso.vhd",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/key_piso.vhd",
+                    "type": "vhdl",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "9be695f46e54357c1481773c3d707b0ddf2394c7de35839d5736e95907201e59"
+                },
+                {
+                    "_path": "src_rtl/LWC/NIST_LWAPI_pkg.vhd",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/NIST_LWAPI_pkg.vhd",
+                    "type": "vhdl",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "9a7942f435fcc11f930ada0a3fbf85f9cd82aaadb8b0c8dea22c5ac3ce5633cd"
+                },
+                {
+                    "_path": "src_rtl/LWC/PreProcessor.vhd",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/PreProcessor.vhd",
+                    "type": "vhdl",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "0337e00b4b54f9af507a390e1966d31f128cf47664fc5b38986bcd8e8771afe8"
+                },
+                {
+                    "_path": "src_rtl/LWC/PostProcessor.vhd",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/PostProcessor.vhd",
+                    "type": "vhdl",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "189150b7a8d49ef04600051a0d6389c08051103c7735b3a2186d87949e573a4b"
+                },
+                {
+                    "_path": "src_rtl/LWC/LWC_SCA.vhd",
+                    "file": "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/LWC_SCA.vhd",
+                    "type": "vhdl",
+                    "variant": null,
+                    "standard": null,
+                    "content_hash": "cbfd8f18bead49ecbd00a43c01870d081443dc1fbd762f7ac1d5b063a7f43fd1"
+                }
+            ],
+            "generics": {},
+            "parameters": {},
+            "defines": {},
+            "top": "LWC_SCA",
+            "clock": {
+                "port": "clk"
+            },
+            "clocks": {
+                "main_clock": {
+                    "port": "clk"
+                }
+            },
+            "clock_port": "clk"
+        },
+        "tb": {
+            "sources": [],
+            "generics": {},
+            "parameters": {},
+            "defines": {},
+            "top": [],
+            "uut": null,
+            "cocotb": false
+        },
+        "language": {
+            "vhdl": {
+                "standard": "93",
+                "version": null,
+                "synopsys": false
+            },
+            "verilog": {
+                "standard": "01",
+                "version": null
+            }
+        },
+        "T": {
+            "__module__": "xeda.design"
+        },
+        "author": [
+            "Shuohang Peng",
+            "Shuying Yin",
+            "Cankun Zhao",
+            "Hang Zhao"
+        ],
+        "url": "https://github.com/ybhphoenix/THU_HWSec_LWC",
+        "license": "GPL-3.0",
+        "version": "0.2.1",
+        "lwc": {
+            "aead": {
+                "algorithm": "xoodyakv1"
+            },
+            "hash": {
+                "algorithm": "xoodyakv1"
+            },
+            "ports": {
+                "pdi": {
+                    "bit_width": 32,
+                    "num_shares": 2
+                },
+                "sdi": {
+                    "bit_width": 32,
+                    "num_shares": 2
+                },
+                "rdi": {
+                    "bit_width": 384
+                }
+            },
+            "sca_protection": {
+                "target": [
+                    "timing",
+                    "spa",
+                    "dpa",
+                    "cpa"
+                ],
+                "masking_schemes": [
+                    "DOM"
+                ],
+                "order": 1
+            }
+        },
+        "description": "Xoodyak with 1st order masking using DOM",
+        "rtl_fingerprint": {
+            "sources": {
+                "src_rtl/CryptoCore_SCA.vhd": "243157a0df07466a2559ebc6b81b8356db08a93e837898a10220f2612cfb7b34",
+                "src_rtl/design_pkg.vhd": "1bad5fb8a27984b7c5fb673c82f8558971370f7d52ff78b0144b29896acc1cd9",
+                "src_rtl/LWC_config_32.vhd": "9dc52d35d53e4d5079910d266eeda3b02c39d3ba46e16e0ae590861469d0a79f",
+                "src_rtl/xoodoo_globals.vhd": "db0842e6f6beba3d462f998b00fb52869fee1be53080d4f86f1eaa598f61a1cc",
+                "src_rtl/xoodoo_n_rounds_SCA.v": "40b7754f346602d4287dfe056d59b2e888f3653111c59ae0d19cdba2c9de3e97",
+                "src_rtl/xoodoo_register_SCA.v": "56534176b18ba213bfaec589a6b35bc106cddb3ea625172468303572bf8dad1b",
+                "src_rtl/xoodoo_round_SCA.v": "be68f974c262d706dbd3ad6a60d7eaa88a554ab9542aed389c2084badaafd259",
+                "src_rtl/xoodoo_SCA.v": "54ae7c8657bcebde88688b28fcc30942b36206c063810dcf71fd63e5cac28f0b",
+                "src_rtl/LWC/data_piso.vhd": "107edad87847af4d749f389cb5ac9e85827fbdce5a2c9b5035e0f51225301e3c",
+                "src_rtl/LWC/data_sipo.vhd": "e4ddf95dd77d72cff9ee7428c711bdf548417d63b823b32a3bed7bacbd1f28b0",
+                "src_rtl/LWC/FIFO.vhd": "86e7cca39390bec9be4229932a9f367cdacce10d0f61e467d0c4ff03c89b8dd9",
+                "src_rtl/LWC/key_piso.vhd": "9be695f46e54357c1481773c3d707b0ddf2394c7de35839d5736e95907201e59",
+                "src_rtl/LWC/NIST_LWAPI_pkg.vhd": "9a7942f435fcc11f930ada0a3fbf85f9cd82aaadb8b0c8dea22c5ac3ce5633cd",
+                "src_rtl/LWC/PreProcessor.vhd": "0337e00b4b54f9af507a390e1966d31f128cf47664fc5b38986bcd8e8771afe8",
+                "src_rtl/LWC/PostProcessor.vhd": "189150b7a8d49ef04600051a0d6389c08051103c7735b3a2186d87949e573a4b",
+                "src_rtl/LWC/LWC_SCA.vhd": "cbfd8f18bead49ecbd00a43c01870d081443dc1fbd762f7ac1d5b063a7f43fd1"
+            },
+            "parameters": {}
+        },
+        "rtl_hash": "f03a99a8e7c9acf5152faa46683dbde5c24ac7530322f10cd156763f3e748709",
+        "tb_hash": "a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a"
+    },
+    "design_hash": "f8e7bafb0dc0d89213e0ea8b0d28fff6d44e44be1d979efdca06f88fb237f2af",
+    "rtl_fingerprint": {
+        "sources": {
+            "src_rtl/CryptoCore_SCA.vhd": "243157a0df07466a2559ebc6b81b8356db08a93e837898a10220f2612cfb7b34",
+            "src_rtl/design_pkg.vhd": "1bad5fb8a27984b7c5fb673c82f8558971370f7d52ff78b0144b29896acc1cd9",
+            "src_rtl/LWC_config_32.vhd": "9dc52d35d53e4d5079910d266eeda3b02c39d3ba46e16e0ae590861469d0a79f",
+            "src_rtl/xoodoo_globals.vhd": "db0842e6f6beba3d462f998b00fb52869fee1be53080d4f86f1eaa598f61a1cc",
+            "src_rtl/xoodoo_n_rounds_SCA.v": "40b7754f346602d4287dfe056d59b2e888f3653111c59ae0d19cdba2c9de3e97",
+            "src_rtl/xoodoo_register_SCA.v": "56534176b18ba213bfaec589a6b35bc106cddb3ea625172468303572bf8dad1b",
+            "src_rtl/xoodoo_round_SCA.v": "be68f974c262d706dbd3ad6a60d7eaa88a554ab9542aed389c2084badaafd259",
+            "src_rtl/xoodoo_SCA.v": "54ae7c8657bcebde88688b28fcc30942b36206c063810dcf71fd63e5cac28f0b",
+            "src_rtl/LWC/data_piso.vhd": "107edad87847af4d749f389cb5ac9e85827fbdce5a2c9b5035e0f51225301e3c",
+            "src_rtl/LWC/data_sipo.vhd": "e4ddf95dd77d72cff9ee7428c711bdf548417d63b823b32a3bed7bacbd1f28b0",
+            "src_rtl/LWC/FIFO.vhd": "86e7cca39390bec9be4229932a9f367cdacce10d0f61e467d0c4ff03c89b8dd9",
+            "src_rtl/LWC/key_piso.vhd": "9be695f46e54357c1481773c3d707b0ddf2394c7de35839d5736e95907201e59",
+            "src_rtl/LWC/NIST_LWAPI_pkg.vhd": "9a7942f435fcc11f930ada0a3fbf85f9cd82aaadb8b0c8dea22c5ac3ce5633cd",
+            "src_rtl/LWC/PreProcessor.vhd": "0337e00b4b54f9af507a390e1966d31f128cf47664fc5b38986bcd8e8771afe8",
+            "src_rtl/LWC/PostProcessor.vhd": "189150b7a8d49ef04600051a0d6389c08051103c7735b3a2186d87949e573a4b",
+            "src_rtl/LWC/LWC_SCA.vhd": "cbfd8f18bead49ecbd00a43c01870d081443dc1fbd762f7ac1d5b063a7f43fd1"
+        },
+        "parameters": {}
+    },
+    "rtl_hash": "f03a99a8e7c9acf5152faa46683dbde5c24ac7530322f10cd156763f3e748709",
+    "flow_name": "vivado_sim",
+    "flow_settings": {
+        "verbose": 0,
+        "debug": false,
+        "quiet": true,
+        "timeout_seconds": 7200,
+        "nthreads": 12,
+        "ncpus": 6,
+        "no_console": false,
+        "reports_dir": "reports",
+        "outputs_dir": "outputs",
+        "clean": false,
+        "lib_paths": [],
+        "dockerized": false,
+        "vcd": null,
+        "stop_time": null,
+        "cocotb": {
+            "coverage": false,
+            "reduced_log_fmt": true,
+            "results_xml": "results.xml",
+            "resolve_x": "VALUE_ERROR",
+            "testcase": [],
+            "random_seed": null,
+            "gpi_extra": []
+        },
+        "optimization_flags": [],
+        "tcl_shell": false,
+        "saif": null,
+        "elab_flags": [
+            "-relax"
+        ],
+        "analyze_flags": [
+            "-relax"
+        ],
+        "sim_flags": [],
+        "elab_debug": null,
+        "sdf": {
+            "root": null,
+            "min": null,
+            "max": null,
+            "typ": null
+        },
+        "debug_traces": false,
+        "prerun_time": null,
+        "work_lib": "work",
+        "initialize_zeros": false,
+        "xelab_log": "xeda_xelab.log"
+    },
+    "xeda_version": "0.1.0rc1",
+    "flowrun_hash": "64c639e8163de0f5e768628bd0d0030e1ac36c3d8dfcc135bf8c0dfc435d2831"
+}

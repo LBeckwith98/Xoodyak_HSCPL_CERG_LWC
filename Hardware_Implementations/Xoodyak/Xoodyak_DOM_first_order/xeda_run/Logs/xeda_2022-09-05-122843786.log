@@ -1,0 +1,5 @@
+2022-09-05 12:28:43,787 [MainThread  ] [CRITI]  Design resource 'src_tb/LWC_TB_SCA.vhd' does not exist!
+2022-09-05 12:28:43,787 [MainThread  ] [CRITI]  DesignValidationError: 1 error validating design Xoodyak_DOM_first_order:
+tb -> sources:
+   Source file: src_tb/LWC_TB_SCA.vhd was not found: No such file or directory /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_tb (value_error)
+

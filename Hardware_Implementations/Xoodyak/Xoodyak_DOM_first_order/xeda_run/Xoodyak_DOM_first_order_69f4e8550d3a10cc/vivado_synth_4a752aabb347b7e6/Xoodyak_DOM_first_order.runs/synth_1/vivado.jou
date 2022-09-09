@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Sep  5 12:45:06 2022
+# Process ID: 221535
+# Current directory: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/xeda_run/Xoodyak_DOM_first_order_69f4e8550d3a10cc/vivado_synth_4a752aabb347b7e6/Xoodyak_DOM_first_order.runs/synth_1
+# Command line: vivado -log LWC_SCA.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LWC_SCA.tcl
+# Log file: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/xeda_run/Xoodyak_DOM_first_order_69f4e8550d3a10cc/vivado_synth_4a752aabb347b7e6/Xoodyak_DOM_first_order.runs/synth_1/LWC_SCA.vds
+# Journal file: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/xeda_run/Xoodyak_DOM_first_order_69f4e8550d3a10cc/vivado_synth_4a752aabb347b7e6/Xoodyak_DOM_first_order.runs/synth_1/vivado.jou
+# Running On: luke-ubuntu, OS: Linux, CPU Frequency: 2200.000 MHz, CPU Physical cores: 12, Host memory: 33554 MB
+#-----------------------------------------------------------
+source LWC_SCA.tcl -notrace

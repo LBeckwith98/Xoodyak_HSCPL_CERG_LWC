@@ -76,7 +76,7 @@ architecture behavioral of CryptoCore_SCA is
             rdi_valid       : in std_logic;
             rdi_ready       : out std_logic;
             word_in         : in std_logic_vector(63 downto 0);
-            word_index_in   : in integer range 0 to 11;
+            word_index_in   : in std_logic_vector(3 downto 0);
             word_enable_in  : in std_logic;
             domain_i          : in std_logic_vector(31 downto 0);
             domain_enable_i   : in std_logic;
@@ -191,7 +191,7 @@ begin
             rdi_valid => rdi_valid,
             rdi_ready => rdi_ready,
             word_in => word_in_s,
-            word_index_in => word_index_in_s,
+            word_index_in => std_logic_vector(to_unsigned(word_index_in_s, 4)),
             word_enable_in => word_enable_in_s,
             domain_i          => padd_s,
             domain_enable_i   => padd_enable_s,

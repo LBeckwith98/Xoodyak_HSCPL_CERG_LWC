@@ -1,0 +1,5 @@
+2022-09-05 12:40:18,460 [MainThread  ] [INFO ]  dumping effective settings to /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/xeda_run/Xoodyak_DOM_first_order_69f4e8550d3a10cc/vivado_sim_64c639e8163de0f5/settings.json
+2022-09-05 12:40:18,470 [MainThread  ] [INFO ]  Running `vivado -nojournal -mode batch -notrace -source vivado_sim.tcl`
+2022-09-05 12:40:18,470 [MainThread  ] [INFO ]  Started vivado[213639]
+2022-09-05 12:40:37,699 [MainThread  ] [INFO ]  No parse_reports action for vivado_sim
+2022-09-05 12:40:37,699 [MainThread  ] [INFO ]  Results written to /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/xeda_run/Xoodyak_DOM_first_order_69f4e8550d3a10cc/vivado_sim_64c639e8163de0f5/results.json

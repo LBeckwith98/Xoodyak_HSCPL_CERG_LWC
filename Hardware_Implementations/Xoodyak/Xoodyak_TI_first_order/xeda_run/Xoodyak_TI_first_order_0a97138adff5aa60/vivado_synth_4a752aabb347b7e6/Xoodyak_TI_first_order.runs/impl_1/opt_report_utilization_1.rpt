@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<RptDoc cmdline="report_utilization -hierarchical -format xml -file opt_report_utilization_1.rpt -pb opt_report_utilization_1.pb" designname="LWC_SCA" designstate="Optimized" partname="xc7a200tfbg484-3" speedfile="-3" title="Utilization Design Information" version="1">
+
+  <section class="" title="Utilization by Hierarchy">
+    <table class="" style="2" title="" useFootnoteNumbers="0">
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tableheader class="" contents="Instance" halign="3" width="-1"/>
+        <tableheader class="" contents="Module" halign="3" width="-1"/>
+        <tableheader class="" contents="Total LUTs" halign="3" width="-1"/>
+        <tableheader class="" contents="Logic LUTs" halign="3" width="-1"/>
+        <tableheader class="" contents="LUTRAMs" halign="3" width="-1"/>
+        <tableheader class="" contents="SRLs" halign="3" width="-1"/>
+        <tableheader class="" contents="FFs" halign="3" width="-1"/>
+        <tableheader class="" contents="RAMB36" halign="3" width="-1"/>
+        <tableheader class="" contents="RAMB18" halign="3" width="-1"/>
+        <tableheader class="" contents="DSP Blocks" halign="3" width="-1"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="LWC_SCA" halign="1" type="string"/>
+        <tablecell class="" contents="(top)" halign="4" type="string"/>
+        <tablecell class="" contents="6035" halign="4" type="string"/>
+        <tablecell class="" contents="5971" halign="4" type="string"/>
+        <tablecell class="" contents="64" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="3322" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="  (LWC_SCA)" halign="1" type="string"/>
+        <tablecell class="" contents="(top)" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="  Inst_CryptoCore" halign="1" type="string"/>
+        <tablecell class="" contents="CryptoCore_SCA" halign="4" type="string"/>
+        <tablecell class="" contents="5795" halign="4" type="string"/>
+        <tablecell class="" contents="5731" halign="4" type="string"/>
+        <tablecell class="" contents="64" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="3176" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    (Inst_CryptoCore)" halign="1" type="string"/>
+        <tablecell class="" contents="CryptoCore_SCA" halign="4" type="string"/>
+        <tablecell class="" contents="115" halign="4" type="string"/>
+        <tablecell class="" contents="51" halign="4" type="string"/>
+        <tablecell class="" contents="64" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="17" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="    i_xoodoo" halign="1" type="string"/>
+        <tablecell class="" contents="xoodoo_SCA" halign="4" type="string"/>
+        <tablecell class="" contents="5680" halign="4" type="string"/>
+        <tablecell class="" contents="5680" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="3159" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      (i_xoodoo)" halign="1" type="string"/>
+        <tablecell class="" contents="xoodoo_SCA" halign="4" type="string"/>
+        <tablecell class="" contents="85" halign="4" type="string"/>
+        <tablecell class="" contents="85" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="65" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      u_xoodoo_n_rounds_SCA" halign="1" type="string"/>
+        <tablecell class="" contents="xoodoo_n_rounds_SCA" halign="4" type="string"/>
+        <tablecell class="" contents="4642" halign="4" type="string"/>
+        <tablecell class="" contents="4642" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="2326" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        u_rconst" halign="1" type="string"/>
+        <tablecell class="" contents="xoodoo_rconst" halign="4" type="string"/>
+        <tablecell class="" contents="8" halign="4" type="string"/>
+        <tablecell class="" contents="8" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="21" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="        u_round" halign="1" type="string"/>
+        <tablecell class="" contents="xoodoo_round_SCA" halign="4" type="string"/>
+        <tablecell class="" contents="4634" halign="4" type="string"/>
+        <tablecell class="" contents="4634" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="2305" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="      u_xoodoo_register_SCA" halign="1" type="string"/>
+        <tablecell class="" contents="xoodoo_register_SCA" halign="4" type="string"/>
+        <tablecell class="" contents="953" halign="4" type="string"/>
+        <tablecell class="" contents="953" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="768" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="  Inst_DoutFifo" halign="1" type="string"/>
+        <tablecell class="" contents="FIFO__parameterized0" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="1" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="66" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="  Inst_HeaderFifo" halign="1" type="string"/>
+        <tablecell class="" contents="FIFO" halign="4" type="string"/>
+        <tablecell class="" contents="17" halign="4" type="string"/>
+        <tablecell class="" contents="17" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="20" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="  Inst_PostProcessor" halign="1" type="string"/>
+        <tablecell class="" contents="PostProcessor" halign="4" type="string"/>
+        <tablecell class="" contents="69" halign="4" type="string"/>
+        <tablecell class="" contents="69" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="28" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+      <tablerow class="" suppressoutput="0" wordwrap="0">
+        <tablecell class="" contents="  Inst_PreProcessor" halign="1" type="string"/>
+        <tablecell class="" contents="PreProcessor" halign="4" type="string"/>
+        <tablecell class="" contents="153" halign="4" type="string"/>
+        <tablecell class="" contents="153" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="32" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+        <tablecell class="" contents="0" halign="4" type="string"/>
+      </tablerow>
+    </table>
+  </section>
+
+</RptDoc>

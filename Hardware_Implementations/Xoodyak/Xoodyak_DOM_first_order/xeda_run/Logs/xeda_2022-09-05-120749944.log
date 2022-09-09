@@ -1,0 +1,10 @@
+2022-09-05 12:07:49,945 [MainThread  ] [CRITI]  DesignValidationError: 3 errors validating design Xoodyak_DOM_first_order:
+rtl -> clock -> port:
+   field required (value_error.missing)
+
+rtl -> clock -> pin:
+   extra fields not permitted (value_error.extra)
+
+rtl -> reset:
+   extra fields not permitted (value_error.extra)
+

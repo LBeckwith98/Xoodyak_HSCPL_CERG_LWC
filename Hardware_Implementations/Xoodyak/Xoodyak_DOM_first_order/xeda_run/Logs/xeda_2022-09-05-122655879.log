@@ -1,0 +1,25 @@
+2022-09-05 12:26:55,880 [MainThread  ] [CRITI]  DesignValidationError: 8 errors validating design Xoodyak_DOM_first_order:
+rtl -> G_FNAME_DO:
+   extra fields not permitted (value_error.extra)
+
+rtl -> G_FNAME_PDI:
+   extra fields not permitted (value_error.extra)
+
+rtl -> G_FNAME_RDI:
+   extra fields not permitted (value_error.extra)
+
+rtl -> G_FNAME_SDI:
+   extra fields not permitted (value_error.extra)
+
+rtl -> G_MAX_FAILURES:
+   extra fields not permitted (value_error.extra)
+
+rtl -> G_RANDOM_STALL:
+   extra fields not permitted (value_error.extra)
+
+rtl -> G_TEST_MODE:
+   extra fields not permitted (value_error.extra)
+
+rtl -> G_TIMEOUT_CYCLES:
+   extra fields not permitted (value_error.extra)
+

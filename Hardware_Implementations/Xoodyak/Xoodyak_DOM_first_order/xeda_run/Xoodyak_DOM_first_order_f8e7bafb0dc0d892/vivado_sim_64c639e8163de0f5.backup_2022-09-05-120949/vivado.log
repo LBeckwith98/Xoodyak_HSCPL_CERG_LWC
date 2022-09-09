@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Sep  5 12:09:43 2022
+# Process ID: 166669
+# Current directory: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/xeda_run/Xoodyak_DOM_first_order_f8e7bafb0dc0d892/vivado_sim_64c639e8163de0f5
+# Command line: vivado -nojournal -mode batch -notrace -source vivado_sim.tcl
+# Log file: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/xeda_run/Xoodyak_DOM_first_order_f8e7bafb0dc0d892/vivado_sim_64c639e8163de0f5/vivado.log
+# Journal file: 
+# Running On: luke-ubuntu, OS: Linux, CPU Frequency: 2200.000 MHz, CPU Physical cores: 12, Host memory: 33554 MB
+#-----------------------------------------------------------
+source vivado_sim.tcl -notrace
+
+===========================( Analyzing HDL Sources )===========================
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd VHDL Standard: 93
+
+===========================( *ENABLE ECHO* )===========================
+Error: INFO: [VRFC 10-163] Analyzing VHDL file "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd" into library work
+ERROR: [VRFC 10-2987] 'nist_lwapi_pkg' is not compiled in library 'work' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:19]
+ERROR: [VRFC 10-2987] 'design_pkg' is not compiled in library 'work' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:20]
+ERROR: [VRFC 10-2987] 'xoodoo_globals' is not compiled in library 'work' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:21]
+INFO: [VRFC 10-3107] analyzing entity 'CryptoCore_SCA'
+ERROR: [VRFC 10-2989] 'sdi_shares' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:30]
+ERROR: [VRFC 10-2989] 'pdi_shares' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:34]
+ERROR: [VRFC 10-2989] 'ccwdiv8' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:37]
+ERROR: [VRFC 10-2989] 'ccwdiv8' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:38]
+ERROR: [VRFC 10-2989] 'pdi_shares' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:47]
+ERROR: [VRFC 10-2989] 'ccwdiv8' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:51]
+ERROR: [VRFC 10-2989] 'ccrw' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:57]
+ERROR: [VRFC 10-3782] unit 'cryptocore_sca' ignored due to previous errors [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:24]
+INFO: [VRFC 10-3070] VHDL file '/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd' ignored due to errors
+child process exited abnormally
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  5 12:09:49 2022...

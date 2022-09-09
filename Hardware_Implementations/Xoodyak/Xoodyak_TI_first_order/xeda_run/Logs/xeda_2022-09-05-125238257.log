@@ -1,0 +1,6 @@
+2022-09-05 12:52:38,259 [MainThread  ] [WARNI]  Renaming existing directory from 'vivado_sim_64c639e8163de0f5' to 'vivado_sim_64c639e8163de0f5.backup_2022-09-05-125213'
+2022-09-05 12:52:38,259 [MainThread  ] [INFO ]  dumping effective settings to /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/xeda_run/Xoodyak_TI_first_order_0a97138adff5aa60/vivado_sim_64c639e8163de0f5/settings.json
+2022-09-05 12:52:38,269 [MainThread  ] [INFO ]  Running `vivado -nojournal -mode batch -notrace -source vivado_sim.tcl`
+2022-09-05 12:52:38,269 [MainThread  ] [INFO ]  Started vivado[234431]
+2022-09-05 12:52:57,897 [MainThread  ] [INFO ]  No parse_reports action for vivado_sim
+2022-09-05 12:52:57,897 [MainThread  ] [INFO ]  Results written to /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/xeda_run/Xoodyak_TI_first_order_0a97138adff5aa60/vivado_sim_64c639e8163de0f5/results.json

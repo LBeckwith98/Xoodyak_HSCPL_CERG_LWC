@@ -1,0 +1,401 @@
+
+*** Running vivado
+    with args -log LWC_SCA.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source LWC_SCA.tcl
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source LWC_SCA.tcl -notrace
+Command: synth_design -top LWC_SCA -part xc7a200tfbg484-3 -directive PerformanceOptimized -fsm_extraction one_hot -keep_equivalent_registers -resource_sharing off -no_lc -shreg_min_size 5
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tfbg484-3
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 221752
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2607.125 ; gain = 0.000 ; free physical = 18938 ; free virtual = 29087
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'LWC_SCA' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/LWC_SCA.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'PreProcessor' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/PreProcessor.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'KEY_PISO' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/key_piso.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'KEY_PISO' (1#1) [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/key_piso.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'DATA_PISO' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/data_piso.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'DATA_PISO' (2#1) [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/data_piso.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'PreProcessor' (3#1) [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/PreProcessor.vhd:80]
+INFO: [Synth 8-3491] module 'CryptoCore_SCA' declared at '/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:24' bound to instance 'Inst_CryptoCore' of component 'CryptoCore_SCA' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/LWC_SCA.vhd:225]
+INFO: [Synth 8-638] synthesizing module 'CryptoCore_SCA' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:63]
+INFO: [Synth 8-3491] module 'xoodoo_SCA' declared at '/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_SCA.v:18' bound to instance 'i_xoodoo' of component 'xoodoo_SCA' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:182]
+INFO: [Synth 8-6157] synthesizing module 'xoodoo_SCA' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_SCA.v:18]
+INFO: [Synth 8-6157] synthesizing module 'xoodoo_register_SCA' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_register_SCA.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'xoodoo_register_SCA' (4#1) [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_register_SCA.v:14]
+INFO: [Synth 8-6157] synthesizing module 'xoodoo_n_rounds_SCA' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_n_rounds_SCA.v:15]
+INFO: [Synth 8-6157] synthesizing module 'xoodoo_rconst' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_n_rounds_SCA.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'xoodoo_rconst' (5#1) [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_n_rounds_SCA.v:36]
+INFO: [Synth 8-6157] synthesizing module 'xoodoo_round_SCA' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_round_SCA.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'xoodoo_round_SCA' (6#1) [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_round_SCA.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'xoodoo_n_rounds_SCA' (7#1) [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_n_rounds_SCA.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'xoodoo_SCA' (8#1) [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/xoodoo_SCA.v:18]
+WARNING: [Synth 8-614] signal 'bdi_xor' is read in the process but is not in the sensitivity list [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:603]
+INFO: [Synth 8-256] done synthesizing module 'CryptoCore_SCA' (9#1) [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'PostProcessor' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/PostProcessor.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'DATA_SIPO' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/data_sipo.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'DATA_SIPO' (10#1) [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/data_sipo.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'PostProcessor' (11#1) [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/PostProcessor.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'FIFO' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/FIFO.vhd:62]
+	Parameter G_W bound to: 32 - type: integer 
+	Parameter G_DEPTH bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO' (12#1) [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/FIFO.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'FIFO__parameterized0' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/FIFO.vhd:62]
+	Parameter G_W bound to: 65 - type: integer 
+	Parameter G_DEPTH bound to: 1 - type: integer 
+	Parameter G_ELASTIC_2 bound to: 1 - type: bool 
+INFO: [Synth 8-256] done synthesizing module 'FIFO__parameterized0' (12#1) [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/FIFO.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'LWC_SCA' (13#1) [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/LWC/LWC_SCA.vhd:78]
+WARNING: [Synth 8-7129] Port clk in module DATA_SIPO is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module DATA_SIPO is either unconnected or has no load
+WARNING: [Synth 8-7129] Port end_of_input in module DATA_SIPO is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bdo_type[3] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bdo_type[2] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bdo_type[1] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bdo_type[0] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_data[30] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_data[29] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_data[27] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_data[26] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_data[24] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_data[23] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_data[22] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_data[21] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_data[20] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_data[19] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_data[18] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_data[17] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_data[16] in module PostProcessor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module DATA_PISO is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module DATA_PISO is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module KEY_PISO is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module KEY_PISO is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2607.125 ; gain = 0.000 ; free physical = 18669 ; free virtual = 28825
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2607.125 ; gain = 0.000 ; free physical = 19544 ; free virtual = 29698
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2607.125 ; gain = 0.000 ; free physical = 19544 ; free virtual = 29698
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2607.125 ; gain = 0.000 ; free physical = 19593 ; free virtual = 29748
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/xeda_run/Xoodyak_DOM_first_order_69f4e8550d3a10cc/vivado_synth_4a752aabb347b7e6/clock.xdc]
+Finished Parsing XDC File [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/xeda_run/Xoodyak_DOM_first_order_69f4e8550d3a10cc/vivado_synth_4a752aabb347b7e6/clock.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/xeda_run/Xoodyak_DOM_first_order_69f4e8550d3a10cc/vivado_synth_4a752aabb347b7e6/clock.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/LWC_SCA_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/LWC_SCA_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2703.066 ; gain = 0.000 ; free physical = 19476 ; free virtual = 29644
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2703.066 ; gain = 0.000 ; free physical = 19476 ; free virtual = 29644
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2703.066 ; gain = 95.941 ; free physical = 19566 ; free virtual = 29735
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg484-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2703.066 ; gain = 95.941 ; free physical = 19565 ; free virtual = 29734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2703.066 ; gain = 95.941 ; free physical = 19565 ; free virtual = 29734
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'GEN_SYNC_RST.state_reg' in module 'PreProcessor'
+INFO: [Synth 8-802] inferred FSM for state register 'GEN_SYNC_RST.state_reg' in module 'PostProcessor'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_inst |                          0000001 |                              000
+              s_inst_key |                          0000010 |                              001
+               s_hdr_key |                          0000100 |                              010
+                s_ld_key |                          0001000 |                              011
+                   s_hdr |                          0010000 |                              100
+              s_ld_empty |                          0100000 |                              110
+                    s_ld |                          1000000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'GEN_SYNC_RST.state_reg' using encoding 'one-hot' in module 'PreProcessor'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_init |                        000000001 |                             0000
+            s_hdr_digest |                        000000010 |                             0001
+            s_out_digest |                        000000100 |                             0010
+               s_hdr_msg |                        000001000 |                             0011
+               s_out_msg |                        000010000 |                             0100
+            s_verify_tag |                        000100000 |                             0111
+               s_hdr_tag |                        001000000 |                             0101
+               s_out_tag |                        010000000 |                             0110
+                s_status |                        100000000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'GEN_SYNC_RST.state_reg' using encoding 'one-hot' in module 'PostProcessor'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2703.066 ; gain = 95.941 ; free physical = 19553 ; free virtual = 29726
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   14 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 2     
++---XORs : 
+	   2 Input     64 Bit         XORs := 1     
+	   2 Input     32 Bit         XORs := 112   
+	   3 Input     32 Bit         XORs := 9     
++---Registers : 
+	               65 Bit    Registers := 1     
+	               32 Bit    Registers := 74    
+	               16 Bit    Registers := 2     
+	               13 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 22    
++---RAMs : 
+	              256 Bit	(4 X 64 bit)          RAMs := 1     
++---ROMs : 
+	                    ROMs := 1     
++---Muxes : 
+	   2 Input  384 Bit        Muxes := 2     
+	   2 Input   64 Bit        Muxes := 14    
+	   4 Input   64 Bit        Muxes := 1     
+	  21 Input   64 Bit        Muxes := 1     
+	   9 Input   64 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 29    
+	   8 Input   32 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	   6 Input   16 Bit        Muxes := 2     
+	   5 Input   16 Bit        Muxes := 2     
+	   2 Input   13 Bit        Muxes := 1     
+	   9 Input    9 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 5     
+	   2 Input    8 Bit        Muxes := 17    
+	   7 Input    7 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 6     
+	   2 Input    5 Bit        Muxes := 1     
+	   6 Input    5 Bit        Muxes := 1     
+	   3 Input    5 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 11    
+	   4 Input    4 Bit        Muxes := 3     
+	   8 Input    4 Bit        Muxes := 1     
+	   6 Input    4 Bit        Muxes := 1     
+	   3 Input    4 Bit        Muxes := 3     
+	   2 Input    3 Bit        Muxes := 4     
+	  12 Input    3 Bit        Muxes := 1     
+	   6 Input    3 Bit        Muxes := 1     
+	  21 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 46    
+	   7 Input    1 Bit        Muxes := 6     
+	   6 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 2     
+	  21 Input    1 Bit        Muxes := 19    
+	   4 Input    1 Bit        Muxes := 2     
+	  12 Input    1 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 1     
+	   9 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port j_in[12] in module xoodoo_n_rounds_SCA is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2703.066 ; gain = 95.941 ; free physical = 19504 ; free virtual = 29690
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++---------------+--------------+---------------+----------------+
+|Module Name    | RTL Object   | Depth x Width | Implemented As | 
++---------------+--------------+---------------+----------------+
+|CryptoCore_SCA | domain_s_reg | 32x32         | Block RAM      | 
++---------------+--------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++----------------+------------+-----------+----------------------+----------------+
+|Module Name     | RTL Object | Inference | Size (Depth x Width) | Primitives     | 
++----------------+------------+-----------+----------------------+----------------+
+|Inst_CryptoCore | key_r_reg  | Implied   | 4 x 64               | RAM16X1S x 64  | 
++----------------+------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2703.066 ; gain = 95.941 ; free physical = 19366 ; free virtual = 29565
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 2703.066 ; gain = 95.941 ; free physical = 19333 ; free virtual = 29532
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++----------------+------------+-----------+----------------------+----------------+
+|Module Name     | RTL Object | Inference | Size (Depth x Width) | Primitives     | 
++----------------+------------+-----------+----------------------+----------------+
+|Inst_CryptoCore | key_r_reg  | Implied   | 4 x 64               | RAM16X1S x 64  | 
++----------------+------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance Inst_CryptoCore/domain_s_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance Inst_CryptoCore/domain_s_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2738.043 ; gain = 130.918 ; free physical = 19308 ; free virtual = 29507
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2746.949 ; gain = 139.824 ; free physical = 19300 ; free virtual = 29499
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2746.949 ; gain = 139.824 ; free physical = 19300 ; free virtual = 29499
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2746.949 ; gain = 139.824 ; free physical = 19300 ; free virtual = 29499
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2746.949 ; gain = 139.824 ; free physical = 19300 ; free virtual = 29499
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2746.949 ; gain = 139.824 ; free physical = 19300 ; free virtual = 29499
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2746.949 ; gain = 139.824 ; free physical = 19300 ; free virtual = 29499
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    11|
+|3     |LUT1     |    27|
+|4     |LUT2     |   107|
+|5     |LUT3     |  1556|
+|6     |LUT4     |   943|
+|7     |LUT5     |   583|
+|8     |LUT6     |  1720|
+|9     |RAM16X1S |    64|
+|10    |RAMB18E1 |     1|
+|11    |FDRE     |  2502|
+|12    |FDSE     |     6|
+|13    |IBUF     |   518|
+|14    |OBUF     |    69|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2746.949 ; gain = 139.824 ; free physical = 19300 ; free virtual = 29499
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 2746.949 ; gain = 43.883 ; free physical = 19359 ; free virtual = 29559
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 2746.957 ; gain = 139.824 ; free physical = 19359 ; free virtual = 29559
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2752.887 ; gain = 0.000 ; free physical = 19442 ; free virtual = 29642
+INFO: [Netlist 29-17] Analyzing 76 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2758.824 ; gain = 0.000 ; free physical = 19387 ; free virtual = 29587
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 64 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 64 instances
+
+Synth Design complete, checksum: 578b7f75
+INFO: [Common 17-83] Releasing license: Synthesis
+51 Infos, 27 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:31 . Memory (MB): peak = 2758.824 ; gain = 151.805 ; free physical = 19613 ; free virtual = 29813
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [Common 17-1381] The checkpoint '/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/xeda_run/Xoodyak_DOM_first_order_69f4e8550d3a10cc/vivado_synth_4a752aabb347b7e6/Xoodyak_DOM_first_order.runs/synth_1/LWC_SCA.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file LWC_SCA_utilization_synth.rpt -pb LWC_SCA_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  5 12:45:44 2022...

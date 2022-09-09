@@ -1,0 +1,333 @@
+Testcase #1 MsgID:1 Op:ENC KeyID:1
+[Log]     Expected: 52000000 Received: 5200000000000000 Matched!
+[Log]     Expected: 83000010 Received: 8300001000000000 Matched!
+[Log]     Expected: 7D7BAB4E Received: 9CF077A1E18BDCEF Matched!
+[Log]     Expected: 4C8E4B97 Received: 06101A254A9E51B2 Matched!
+[Log]     Expected: C23F7D50 Received: BE06EB9D7C3996CD Matched!
+[Log]     Expected: 7D0201C4 Received: 128EC7456F8CC681 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #2 MsgID:2 Op:DEC KeyID:1
+[Log]     Expected: 43000000 Received: 4300000000000000 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #3 MsgID:3 Op:HASH
+[Log]     Expected: 93000020 Received: 9300002000000000 Matched!
+[Log]     Expected: EA152F2B Received: 0C58B306E64D9C2D Matched!
+[Log]     Expected: 47BCE24E Received: 9D372D4FDA8BCF01 Matched!
+[Log]     Expected: FB66C479 Received: A08112405BE7D639 Matched!
+[Log]     Expected: D4ADF17B Received: 32109C88E6BD6DF3 Matched!
+[Log]     Expected: D324D806 Received: C670B4DC15546CDA Matched!
+[Log]     Expected: E85FF75E Received: 21EE10FDC9B1E7A3 Matched!
+[Log]     Expected: E369EE50 Received: F635DDB8155C33E8 Matched!
+[Log]     Expected: DC8F8BD1 Received: 1461C5B8C8EE4E69 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #4 MsgID:4 Op:ENC KeyID:2
+[Log]     Expected: 52000000 Received: 5200000000000000 Matched!
+[Log]     Expected: 83000010 Received: 8300001000000000 Matched!
+[Log]     Expected: 9B3FBD3F Received: 317767DDAA48DAE2 Matched!
+[Log]     Expected: E7AB0FD8 Received: C84C75082FE77AD0 Matched!
+[Log]     Expected: 81166C3C Received: 3488EA20B59E861C Matched!
+[Log]     Expected: 72173BF2 Received: 9F50B90CED4782FE Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #5 MsgID:5 Op:DEC KeyID:2
+[Log]     Expected: 43000000 Received: 4300000000000000 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #6 MsgID:6 Op:HASH
+[Log]     Expected: 93000020 Received: 9300002000000000 Matched!
+[Log]     Expected: 5250DD25 Received: 656646EA37369BCF Matched!
+[Log]     Expected: A64B7ECA Received: CE68605768231E9D Matched!
+[Log]     Expected: B90D9A27 Received: AF171566161A8F41 Matched!
+[Log]     Expected: 4ED969D2 Received: FD412F28B39846FA Matched!
+[Log]     Expected: F94FEF38 Received: 97A498406EEB7778 Matched!
+[Log]     Expected: DCADC7ED Received: 414DC0789DE00795 Matched!
+[Log]     Expected: 94A732D7 Received: 593B0A30CD9C38E7 Matched!
+[Log]     Expected: 6DB1664E Received: B7993863DA285E2D Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #7 MsgID:7 Op:ENC KeyID:3
+[Log]     Expected: 52000001 Received: 5200000100000000 Matched!
+[Log]     Expected: E6000000 Received: FD0000001B000000 Matched!
+[Log]     Expected: 83000010 Received: 8300001000000000 Matched!
+[Log]     Expected: 3BD76487 Received: 370232360CD556B1 Matched!
+[Log]     Expected: 9F793DAC Received: 50ACA970CFD594DC Matched!
+[Log]     Expected: 25C8B2AC Received: BCD34A88991BF824 Matched!
+[Log]     Expected: 0EAF2041 Received: 317B40D83FD46099 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #8 MsgID:8 Op:DEC KeyID:3
+[Log]     Expected: 43000001 Received: 4300000100000000 Matched!
+[Log]     Expected: 0E000000 Received: 3600000038000000 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #9 MsgID:9 Op:HASH
+[Log]     Expected: 93000020 Received: 9300002000000000 Matched!
+[Log]     Expected: 393F7D21 Received: 61A2AE47589DD366 Matched!
+[Log]     Expected: 2DC881BC Received: D7D865A5FA10E419 Matched!
+[Log]     Expected: 359F2D05 Received: 97F77ECBA26853CE Matched!
+[Log]     Expected: E81A1710 Received: 7E9E8A6696849D76 Matched!
+[Log]     Expected: 4CFB8ED8 Received: 5E8E2B281275A5F0 Matched!
+[Log]     Expected: 96180B33 Received: 6BE3235EFDFB286D Matched!
+[Log]     Expected: 2587BC21 Received: 0EF9AF5A2B7E137B Matched!
+[Log]     Expected: B8D89CAC Received: 29B8029591609E39 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #10 MsgID:10 Op:ENC KeyID:4
+[Log]     Expected: 52000001 Received: 5200000100000000 Matched!
+[Log]     Expected: 93000000 Received: 32000000A1000000 Matched!
+[Log]     Expected: 83000010 Received: 8300001000000000 Matched!
+[Log]     Expected: D4322246 Received: 22DAD620F6E8F466 Matched!
+[Log]     Expected: 963A862D Received: DEEEAD4048D42B6D Matched!
+[Log]     Expected: 17D4CFD5 Received: CC4358D6DB979703 Matched!
+[Log]     Expected: A818FA97 Received: BDA6F9D615BE0341 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #11 MsgID:11 Op:DEC KeyID:4
+[Log]     Expected: 43000001 Received: 4300000100000000 Matched!
+[Log]     Expected: FF000000 Received: 30000000CF000000 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #12 MsgID:12 Op:HASH
+[Log]     Expected: 93000020 Received: 9300002000000000 Matched!
+[Log]     Expected: B0DE43A0 Received: 0F9D972FBF43D48F Matched!
+[Log]     Expected: D45FCAD9 Received: 148CB3F6C0D3792F Matched!
+[Log]     Expected: DA00F664 Received: 7877DA50A2772C34 Matched!
+[Log]     Expected: 6F0842BC Received: 9AEF96E2F5E7D45E Matched!
+[Log]     Expected: A13D3CAB Received: B32B81C51216BD6E Matched!
+[Log]     Expected: AEEBC504 Received: DBE0967D750B5379 Matched!
+[Log]     Expected: 51612B3C Received: 1650DFAE4731F492 Matched!
+[Log]     Expected: 5F3A78F3 Received: DE47856B817DFD98 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #13 MsgID:13 Op:ENC KeyID:5
+[Log]     Expected: 52000002 Received: 5200000200000000 Matched!
+[Log]     Expected: 52010000 Received: 2467000076660000 Matched!
+[Log]     Expected: 83000010 Received: 8300001000000000 Matched!
+[Log]     Expected: 1E13FFD1 Received: 9F93BE0F818041DE Matched!
+[Log]     Expected: 8A858DA9 Received: D110748E5B95F927 Matched!
+[Log]     Expected: F8A65A5D Received: 768A7B4B8E2C2116 Matched!
+[Log]     Expected: 76638074 Received: 8C8C0B3CFAEF8B48 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #14 MsgID:14 Op:DEC KeyID:5
+[Log]     Expected: 43000002 Received: 4300000200000000 Matched!
+[Log]     Expected: 01C30000 Received: 6136000060F50000 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #15 MsgID:15 Op:HASH
+[Log]     Expected: 93000020 Received: 9300002000000000 Matched!
+[Log]     Expected: 18A4C4F4 Received: 178868820F2CAC76 Matched!
+[Log]     Expected: 34BEE53B Received: FC63D57AC8DD3041 Matched!
+[Log]     Expected: BBA9C8FA Received: EDC5C9F1566C010B Matched!
+[Log]     Expected: 98607B60 Received: 2A1A9932B27AE252 Matched!
+[Log]     Expected: E7EB80FC Received: D16ACA6136814A9D Matched!
+[Log]     Expected: 8DFC62AD Received: 52F1E047DF0D82EA Matched!
+[Log]     Expected: 0B4470CC Received: 13D4FCAA18908C66 Matched!
+[Log]     Expected: 5FF60656 Received: DCD73F8D832139DB Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #16 MsgID:16 Op:ENC KeyID:6
+[Log]     Expected: 5200000F Received: 5200000F00000000 Matched!
+[Log]     Expected: F4947299 Received: C61B806C328FF2F5 Matched!
+[Log]     Expected: 9ED7F78B Received: 609C9AF5FE4B6D7E Matched!
+[Log]     Expected: 9941D015 Received: A324E4E23A6534F7 Matched!
+[Log]     Expected: 72187500 Received: 58FEF2002AE68700 Matched!
+[Log]     Expected: 83000010 Received: 8300001000000000 Matched!
+[Log]     Expected: 5B339C0F Received: 82FFC39BD9CC5F94 Matched!
+[Log]     Expected: 7BDB4DB5 Received: C3C8FBAFB813B61A Matched!
+[Log]     Expected: 09672151 Received: 941CFFCF9D7BDE9E Matched!
+[Log]     Expected: 66D967F0 Received: D98825C4BF514234 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #17 MsgID:17 Op:DEC KeyID:6
+[Log]     Expected: 4300000F Received: 4300000F00000000 Matched!
+[Log]     Expected: 218D314E Received: 10FC93DB3171A295 Matched!
+[Log]     Expected: 987A952B Received: 01612794991BB2BF Matched!
+[Log]     Expected: 935C5AA8 Received: D6C419BA45984312 Matched!
+[Log]     Expected: 9DB7A800 Received: AE68420033DFEA00 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #18 MsgID:18 Op:HASH
+[Log]     Expected: 93000020 Received: 9300002000000000 Matched!
+[Log]     Expected: 1B99A4B5 Received: 6EB12F7175288BC4 Matched!
+[Log]     Expected: 68F455C2 Received: CE8895B9A67CC07B Matched!
+[Log]     Expected: 6DF99077 Received: 695D047904A4940E Matched!
+[Log]     Expected: 271DF88C Received: 2E38D77309252FFF Matched!
+[Log]     Expected: 5885B5AE Received: 80C0856BD84530C5 Matched!
+[Log]     Expected: 6C8B74D2 Received: 95F0F96EF97B8DBC Matched!
+[Log]     Expected: 25141F43 Received: EFBFAFEFCAABB0AC Matched!
+[Log]     Expected: 5CD6ADFF Received: 10BCD45B4C6A79A4 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #19 MsgID:19 Op:ENC KeyID:7
+[Log]     Expected: 52000010 Received: 5200001000000000 Matched!
+[Log]     Expected: 7038DD9F Received: F8B34A4E888B97D1 Matched!
+[Log]     Expected: 922D85FE Received: 2358F11AB17574E4 Matched!
+[Log]     Expected: 51919FEC Received: 902941C6C1B8DE2A Matched!
+[Log]     Expected: E6F2824D Received: 16BEC3BDF04C41F0 Matched!
+[Log]     Expected: 83000010 Received: 8300001000000000 Matched!
+[Log]     Expected: C4A1D398 Received: 4CF594D78854474F Matched!
+[Log]     Expected: 868D4894 Received: 698DB7C4EF00FF50 Matched!
+[Log]     Expected: EA2E1D08 Received: 87D323056DFD3E0D Matched!
+[Log]     Expected: EC4A7C39 Received: 04A91BF5E8E367CC Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #20 MsgID:20 Op:DEC KeyID:7
+[Log]     Expected: 43000010 Received: 4300001000000000 Matched!
+[Log]     Expected: 9B65AB0C Received: 68593D31F33C963D Matched!
+[Log]     Expected: 91454B7C Received: DA98743B4BDD3F47 Matched!
+[Log]     Expected: 81208514 Received: EB0E34AD6A2EB1B9 Matched!
+[Log]     Expected: A6CD463B Received: 70DB5904D6161F3F Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #21 MsgID:21 Op:HASH
+[Log]     Expected: 93000020 Received: 9300002000000000 Matched!
+[Log]     Expected: BCA5C2C8 Received: 18A137ECA404F524 Matched!
+[Log]     Expected: FADFEEA1 Received: 92E09968683F77C9 Matched!
+[Log]     Expected: 1B005D29 Received: 54180FBA4F185293 Matched!
+[Log]     Expected: A4D8739B Received: F0A9F7B55471842E Matched!
+[Log]     Expected: AFB6D9FA Received: D2612A217DD7F3DB Matched!
+[Log]     Expected: CA694C1B Received: 76EE77ADBC873BB6 Matched!
+[Log]     Expected: 42E81532 Received: DC5FDB6F9EB7CE5D Matched!
+[Log]     Expected: 408B7625 Received: 1E28ABB05EA3DD95 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #22 MsgID:22 Op:ENC KeyID:8
+[Log]     Expected: 52000011 Received: 5200001100000000 Matched!
+[Log]     Expected: 96DF4FB4 Received: BB90917A2D4FDECE Matched!
+[Log]     Expected: 22FE6431 Received: 0435BA2426CBDE15 Matched!
+[Log]     Expected: C7497EF6 Received: 3F7FA560F836DB96 Matched!
+[Log]     Expected: AE14E99E Received: BCE893F712FC7A69 Matched!
+[Log]     Expected: 37000000 Received: 2B0000001C000000 Matched!
+[Log]     Expected: 83000010 Received: 8300001000000000 Matched!
+[Log]     Expected: E8BD1F00 Received: 283A95E4C0878AE4 Matched!
+[Log]     Expected: 68454B5D Received: 20428CAD4807C7F0 Matched!
+[Log]     Expected: BE4D9C5D Received: BB73A05E053E3C03 Matched!
+[Log]     Expected: C3DF0199 Received: 601E590AA3C15893 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #23 MsgID:23 Op:DEC KeyID:8
+[Log]     Expected: 43000011 Received: 4300001100000000 Matched!
+[Log]     Expected: A405C56E Received: EDCC5E5349C99B3D Matched!
+[Log]     Expected: 6D09FA4E Received: 0E6807716361FD3F Matched!
+[Log]     Expected: 1AD560C3 Received: EEFF05A4F42A6567 Matched!
+[Log]     Expected: F8F25AE7 Received: 405A993EB8A8C3D9 Matched!
+[Log]     Expected: 47000000 Received: 1700000050000000 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #24 MsgID:24 Op:HASH
+[Log]     Expected: 93000020 Received: 9300002000000000 Matched!
+[Log]     Expected: CDE223A2 Received: C5D7448308356721 Matched!
+[Log]     Expected: D59CA78E Received: EB7500BE3EE9A730 Matched!
+[Log]     Expected: 3B110139 Received: D3232484E83225BD Matched!
+[Log]     Expected: 80389EC0 Received: 33B79FD2B38F0112 Matched!
+[Log]     Expected: A055A630 Received: 8D0E54312D5BF201 Matched!
+[Log]     Expected: 894C1F0B Received: 9DF94EC614B551CD Matched!
+[Log]     Expected: 6ED5133A Received: C6E4807FA8319345 Matched!
+[Log]     Expected: 330B4645 Received: 3C0EB6360F05F073 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #25 MsgID:25 Op:ENC KeyID:9
+[Log]     Expected: 52000020 Received: 5200002000000000 Matched!
+[Log]     Expected: 7A3795FE Received: 22ADEB64589A7E9A Matched!
+[Log]     Expected: 6034A6EC Received: 4BE9D2182BDD74F4 Matched!
+[Log]     Expected: 8C93A9DC Received: 7F3E3718F3AD9EC4 Matched!
+[Log]     Expected: 1BD5284F Received: FFBF8818E46AA057 Matched!
+[Log]     Expected: 4E5C2AE9 Received: E959B53CA7059FD5 Matched!
+[Log]     Expected: 36B29062 Received: FE52749FC8E0E4FD Matched!
+[Log]     Expected: AED37467 Received: BAC4310314174564 Matched!
+[Log]     Expected: F0E9C31C Received: BD39D1314DD0122D Matched!
+[Log]     Expected: 83000010 Received: 8300001000000000 Matched!
+[Log]     Expected: FD6AD93D Received: 3679D2EECB130BD3 Matched!
+[Log]     Expected: 6A82D072 Received: 7051E24D1AD3323F Matched!
+[Log]     Expected: 1812EAC5 Received: 0F4F6A06175D80C3 Matched!
+[Log]     Expected: 6AC9029E Received: CFD520EDA51C2273 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #26 MsgID:26 Op:DEC KeyID:9
+[Log]     Expected: 43000020 Received: 4300002000000000 Matched!
+[Log]     Expected: F90F9E74 Received: D5702EFF2C7FB08B Matched!
+[Log]     Expected: A9300A9E Received: 243B727E8D0B78E0 Matched!
+[Log]     Expected: C0EC1235 Received: 434C379583A025A0 Matched!
+[Log]     Expected: B462CCFF Received: 03470489B725C876 Matched!
+[Log]     Expected: C51F8460 Received: 36B3E76EF3AC630E Matched!
+[Log]     Expected: 0E4CE48F Received: 6DE1C14863AD25C7 Matched!
+[Log]     Expected: 2A4601E6 Received: BCD4B9579692B8B1 Matched!
+[Log]     Expected: CCDA5FDE Received: 649E5766A84408B8 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #27 MsgID:27 Op:HASH
+[Log]     Expected: 93000020 Received: 9300002000000000 Matched!
+[Log]     Expected: AC1E46C5 Received: 7A6CD0A8D672966D Matched!
+[Log]     Expected: 8FC47813 Received: AC0D838023C9FB93 Matched!
+[Log]     Expected: 2CC87851 Received: 1CBF05F430777DA5 Matched!
+[Log]     Expected: 5947A1BE Received: 4E8BCC2C17CC6D92 Matched!
+[Log]     Expected: 6583B0E4 Received: C8E4AA6BAD671A8F Matched!
+[Log]     Expected: C7C7F3FB Received: EF981179285FE282 Matched!
+[Log]     Expected: 4045B1D1 Received: F4ED7034B4A8C1E5 Matched!
+[Log]     Expected: 2A6C7FEB Received: 1E879E9734EBE17C Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #28 MsgID:28 Op:ENC KeyID:10
+[Log]     Expected: 52000021 Received: 5200002100000000 Matched!
+[Log]     Expected: FD3EC8A5 Received: 4B59EB94B6672331 Matched!
+[Log]     Expected: F7BCAE7C Received: 0CCF5D56FB73F32A Matched!
+[Log]     Expected: 1393C74E Received: BB63524CA8F09502 Matched!
+[Log]     Expected: 6C2D27AB Received: 5DF4B9B131D99E1A Matched!
+[Log]     Expected: B7E628DD Received: 37B5446980536CB4 Matched!
+[Log]     Expected: 5F377502 Received: AE105D91F1272893 Matched!
+[Log]     Expected: BCBB432F Received: F5A82A6A49136945 Matched!
+[Log]     Expected: 97AB9ED4 Received: 2743C592B0E85B46 Matched!
+[Log]     Expected: F7000000 Received: A700000050000000 Matched!
+[Log]     Expected: 83000010 Received: 8300001000000000 Matched!
+[Log]     Expected: 850ED671 Received: 9C672B361969FD47 Matched!
+[Log]     Expected: EC842AE8 Received: 8045C2A26CC1E84A Matched!
+[Log]     Expected: A15056E0 Received: 7C0B8735DD5BD1D5 Matched!
+[Log]     Expected: 518AF1C6 Received: 1F7A407F4EF0B1B9 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #29 MsgID:29 Op:DEC KeyID:10
+[Log]     Expected: 43000021 Received: 4300002100000000 Matched!
+[Log]     Expected: BE404A89 Received: DF08D10561489B8C Matched!
+[Log]     Expected: 36CF7683 Received: 924C671CA483119F Matched!
+[Log]     Expected: 54285E42 Received: 1F9258AE4BBA06EC Matched!
+[Log]     Expected: 6E2A98B7 Received: 20CEC2634EE45AD4 Matched!
+[Log]     Expected: 7EBAEC2E Received: B1011B37CFBBF719 Matched!
+[Log]     Expected: 8F4EA063 Received: 37FA5E6DB8B4FE0E Matched!
+[Log]     Expected: 205BB7AD Received: 4B7FAD216B241A8C Matched!
+[Log]     Expected: 9F8D2722 Received: 26FFCE8FB972E9AD Matched!
+[Log]     Expected: 39000000 Received: F9000000C0000000 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #30 MsgID:30 Op:HASH
+[Log]     Expected: 93000020 Received: 9300002000000000 Matched!
+[Log]     Expected: AFE19328 Received: 5F8D148DF06C87A5 Matched!
+[Log]     Expected: 085FDD08 Received: 7DF93B2275A6E62A Matched!
+[Log]     Expected: 53CE2620 Received: 22379AEB71F9BCCB Matched!
+[Log]     Expected: CC0A9001 Received: 0E06C0F7C20C50F6 Matched!
+[Log]     Expected: 4F2091D3 Received: BFDDF7DCF0FD660F Matched!
+[Log]     Expected: 800C4CCB Received: 2C661E27AC6A52EC Matched!
+[Log]     Expected: BCA7B505 Received: 051A8BF1B9BD3EF4 Matched!
+[Log]     Expected: 226D23A4 Received: 7C5BC1C95E36E26D Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #31 MsgID:31 Op:ENC KeyID:11
+[Log]     Expected: 52000030 Received: 5200003000000000 Matched!
+[Log]     Expected: A9E1F8B2 Received: 2572C46D8C933CDF Matched!
+[Log]     Expected: FC05278E Received: 382876A3C42D512D Matched!
+[Log]     Expected: 31349DA9 Received: 0625EC11371171B8 Matched!
+[Log]     Expected: 5405DD54 Received: 6AD37FB63ED6A2E2 Matched!
+[Log]     Expected: 9EBC5846 Received: 3D1EF08DA3A2A8CB Matched!
+[Log]     Expected: 524C3AE8 Received: 252E799E77624376 Matched!
+[Log]     Expected: 33239709 Received: 97BB538EA498C487 Matched!
+[Log]     Expected: 5828AF53 Received: 3193FF4F69BB501C Matched!
+[Log]     Expected: 5D2C2988 Received: 3CC7CB5A61EBE2D2 Matched!
+[Log]     Expected: C556C394 Received: BC72C60679240592 Matched!
+[Log]     Expected: B0A5A3D6 Received: E4248A8C5481295A Matched!
+[Log]     Expected: 4E40609D Received: 089BEA0246DB8A9F Matched!
+[Log]     Expected: 83000010 Received: 8300001000000000 Matched!
+[Log]     Expected: 4E7434A3 Received: 90334460DE4770C3 Matched!
+[Log]     Expected: 19267FB1 Received: 45CF07DE5CE9786F Matched!
+[Log]     Expected: 0257B784 Received: B4BC502EB6EBE7AA Matched!
+[Log]     Expected: 87A37FF9 Received: 0E64058689C77A7F Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #32 MsgID:32 Op:DEC KeyID:11
+[Log]     Expected: 43000030 Received: 4300003000000000 Matched!
+[Log]     Expected: AE32CF13 Received: 354E15CD9B7CDADE Matched!
+[Log]     Expected: 03B8DD3C Received: 1E94D53C1D2C0800 Matched!
+[Log]     Expected: AF9990A7 Received: D0921CA47F0B8C03 Matched!
+[Log]     Expected: 0C927EE7 Received: 313608FA3DA4761D Matched!
+[Log]     Expected: 9F61300B Received: 42C97E0ADDA84E01 Matched!
+[Log]     Expected: AAD21058 Received: 03E48444A936941C Matched!
+[Log]     Expected: C4175685 Received: C2670B7A06705DFF Matched!
+[Log]     Expected: 388177CC Received: A9245B5891A52C94 Matched!
+[Log]     Expected: D8131C7A Received: 94A5822D4CB69E57 Matched!
+[Log]     Expected: E5A70E84 Received: 8EB561866B126F02 Matched!
+[Log]     Expected: BC0638E1 Received: 23C8530F9FCE6BEE Matched!
+[Log]     Expected: 5B0A2F46 Received: 98D80734C3D22872 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+Testcase #33 MsgID:33 Op:HASH
+[Log]     Expected: 93000020 Received: 9300002000000000 Matched!
+[Log]     Expected: 25AA4177 Received: F804AA30DDAEEB47 Matched!
+[Log]     Expected: 5B9B0E18 Received: 524C07DE09D709C6 Matched!
+[Log]     Expected: 92A9CF51 Received: 22315294B0989DC5 Matched!
+[Log]     Expected: E9D4E95E Received: 2BC3E5F8C2170CA6 Matched!
+[Log]     Expected: A50E6BA9 Received: 25E82C3780E6479E Matched!
+[Log]     Expected: 7EDE5F20 Received: 20182CA95EC67389 Matched!
+[Log]     Expected: A382723B Received: 8BD0A8DD2852DAE6 Matched!
+[Log]     Expected: 058C3855 Received: 5C0FBDA4598385F1 Matched!
+[Log]     Expected: E0000000 Received: E000000000000000 Matched!
+ Simulation time: 21120000 ps

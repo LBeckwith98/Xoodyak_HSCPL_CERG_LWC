@@ -1,0 +1,14 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd" into library work
+ERROR: [VRFC 10-2987] 'nist_lwapi_pkg' is not compiled in library 'work' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:19]
+ERROR: [VRFC 10-2987] 'design_pkg' is not compiled in library 'work' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:20]
+ERROR: [VRFC 10-2987] 'xoodoo_globals' is not compiled in library 'work' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:21]
+INFO: [VRFC 10-3107] analyzing entity 'CryptoCore_SCA'
+ERROR: [VRFC 10-2989] 'sdi_shares' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:30]
+ERROR: [VRFC 10-2989] 'pdi_shares' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:34]
+ERROR: [VRFC 10-2989] 'ccwdiv8' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:37]
+ERROR: [VRFC 10-2989] 'ccwdiv8' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:38]
+ERROR: [VRFC 10-2989] 'pdi_shares' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:47]
+ERROR: [VRFC 10-2989] 'ccwdiv8' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:51]
+ERROR: [VRFC 10-2989] 'ccrw' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:57]
+ERROR: [VRFC 10-3782] unit 'cryptocore_sca' ignored due to previous errors [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd:24]
+INFO: [VRFC 10-3070] VHDL file '/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/src_rtl/CryptoCore_SCA.vhd' ignored due to errors

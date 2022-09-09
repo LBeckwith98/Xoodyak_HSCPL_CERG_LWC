@@ -1,0 +1,7 @@
+2022-09-05 12:44:58,109 [MainThread  ] [INFO ]  dumping effective settings to /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/xeda_run/Xoodyak_DOM_first_order_69f4e8550d3a10cc/vivado_synth_4a752aabb347b7e6/settings.json
+2022-09-05 12:44:58,110 [MainThread  ] [INFO ]  clock.port=clk clock.frequency=50.000 MHz
+2022-09-05 12:44:58,125 [MainThread  ] [INFO ]  Running `vivado -nojournal -mode batch -notrace -source vivado_synth.tcl`
+2022-09-05 12:44:58,125 [MainThread  ] [INFO ]  Started vivado[221176]
+2022-09-05 12:46:12,387 [MainThread  ] [WARNI]  File reports/route_design/timing_summary.rpt does not exist! Most probably the flow run had failed.
+ Please check log files in /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_DOM_first_order/xeda_run/Xoodyak_DOM_first_order_69f4e8550d3a10cc/vivado_synth_4a752aabb347b7e6
+2022-09-05 12:46:12,387 [MainThread  ] [CRITI]  parse_reports throw an exception: [Errno 2] No such file or directory: 'reports/route_design/utilization.xml'

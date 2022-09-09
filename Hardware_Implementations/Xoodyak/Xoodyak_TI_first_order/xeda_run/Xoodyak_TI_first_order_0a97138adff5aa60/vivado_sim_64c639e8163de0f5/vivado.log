@@ -1,0 +1,134 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Sep  5 12:52:38 2022
+# Process ID: 234466
+# Current directory: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/xeda_run/Xoodyak_TI_first_order_0a97138adff5aa60/vivado_sim_64c639e8163de0f5
+# Command line: vivado -nojournal -mode batch -notrace -source vivado_sim.tcl
+# Log file: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/xeda_run/Xoodyak_TI_first_order_0a97138adff5aa60/vivado_sim_64c639e8163de0f5/vivado.log
+# Journal file: 
+# Running On: luke-ubuntu, OS: Linux, CPU Frequency: 2200.000 MHz, CPU Physical cores: 12, Host memory: 33554 MB
+#-----------------------------------------------------------
+source vivado_sim.tcl -notrace
+
+===========================( Analyzing HDL Sources )===========================
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC_config.vhd VHDL Standard: 08
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/NIST_LWAPI_pkg.vhd VHDL Standard: 08
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/design_pkg.vhd VHDL Standard: 08
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/xoodoo_globals.vhd VHDL Standard: 08
+Analyzing Verilog file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/xoodoo_n_rounds_SCA.v
+Analyzing Verilog file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/xoodoo_register_SCA.v
+Analyzing Verilog file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/xoodoo_round_SCA.v
+Analyzing Verilog file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/xoodoo_SCA.v
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/CryptoCore_SCA.vhd VHDL Standard: 08
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/data_piso.vhd VHDL Standard: 08
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/data_sipo.vhd VHDL Standard: 08
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/FIFO.vhd VHDL Standard: 08
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/key_piso.vhd VHDL Standard: 08
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/PreProcessor.vhd VHDL Standard: 08
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/PostProcessor.vhd VHDL Standard: 08
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/LWC_SCA.vhd VHDL Standard: 08
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd VHDL Standard: 08
+
+===========================( Elaborating design )===========================
+
+===========================( Loading Simulation )===========================
+Time resolution is 1 ps
+
+===========================( Running simulation )===========================
+Note: 
+RW=384
+Time: 0 ps  Iteration: 0  Process: /LWC_TB/gen_rdi/rdi_proc  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: [LWC]
+  GW=32  SW=32
+  CCW=32 CCSW=32
+Time: 0 ps  Iteration: 0  Process: /LWC_TB/uut/line__167  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/LWC_SCA.vhd
+Note: 
+ -- Testvectors:  /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/KAT/pdi.txt /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/KAT/sdi.txt /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/KAT/do.txt
+ -- Clock Period:  10000 ps
+ -- Max Failures:  0
+ -- Timout Cycles: 1000
+ -- Test Mode:     0
+ -- Random Seed:   1
+ -- Test Mode:     0
+
+
+Time: 0 ps  Iteration: 0  Process: /LWC_TB/Reset_PROCESS  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #1 MsgID:1 Op:ENC KeyID:1
+Time: 40 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #2 MsgID:2 Op:DEC KeyID:1
+Time: 1040 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #3 MsgID:3 Op:HASH
+Time: 1970 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #4 MsgID:4 Op:ENC KeyID:2
+Time: 2600 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #5 MsgID:5 Op:DEC KeyID:2
+Time: 3540 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #6 MsgID:6 Op:HASH
+Time: 4470 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #7 MsgID:7 Op:ENC KeyID:3
+Time: 5100 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #8 MsgID:8 Op:DEC KeyID:3
+Time: 6050 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #9 MsgID:9 Op:HASH
+Time: 6990 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #10 MsgID:10 Op:ENC KeyID:4
+Time: 7620 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #11 MsgID:11 Op:DEC KeyID:4
+Time: 8570 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #12 MsgID:12 Op:HASH
+Time: 9510 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #13 MsgID:13 Op:ENC KeyID:5
+Time: 10140 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #14 MsgID:14 Op:DEC KeyID:5
+Time: 11090 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #15 MsgID:15 Op:HASH
+Time: 12030 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #16 MsgID:16 Op:ENC KeyID:6
+Time: 12660 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #17 MsgID:17 Op:DEC KeyID:6
+Time: 13670 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #18 MsgID:18 Op:HASH
+Time: 14670 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #19 MsgID:19 Op:ENC KeyID:7
+Time: 15330 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #20 MsgID:20 Op:DEC KeyID:7
+Time: 16340 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #21 MsgID:21 Op:HASH
+Time: 17340 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #22 MsgID:22 Op:ENC KeyID:8
+Time: 18270 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #23 MsgID:23 Op:DEC KeyID:8
+Time: 19300 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #24 MsgID:24 Op:HASH
+Time: 20320 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #25 MsgID:25 Op:ENC KeyID:9
+Time: 21250 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #26 MsgID:26 Op:DEC KeyID:9
+Time: 22600 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #27 MsgID:27 Op:HASH
+Time: 23940 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #28 MsgID:28 Op:ENC KeyID:10
+Time: 24900 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #29 MsgID:29 Op:DEC KeyID:10
+Time: 26270 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #30 MsgID:30 Op:HASH
+Time: 27630 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #31 MsgID:31 Op:ENC KeyID:11
+Time: 28860 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #32 MsgID:32 Op:DEC KeyID:11
+Time: 30550 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Testcase #33 MsgID:33 Op:HASH
+Time: 32230 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Reached EOF marker in /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/KAT/do.txt
+Time: 33490 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: Number of consumed random words: 2473
+Time: 33500 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Note: 
+
+[PASS] Simulation completed in 3346 cycles.
+
+Time: 33500 ns  Iteration: 1  Process: /LWC_TB/tb_verify_do  File: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd
+Vivado simulation finished at 33510 ns
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  5 12:52:57 2022...

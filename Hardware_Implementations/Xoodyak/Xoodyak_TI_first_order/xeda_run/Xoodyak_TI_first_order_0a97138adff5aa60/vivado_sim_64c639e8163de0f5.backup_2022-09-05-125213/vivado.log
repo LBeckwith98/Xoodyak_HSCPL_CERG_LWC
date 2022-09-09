@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Sep  5 12:51:57 2022
+# Process ID: 232413
+# Current directory: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/xeda_run/Xoodyak_TI_first_order_0a97138adff5aa60/vivado_sim_64c639e8163de0f5
+# Command line: vivado -nojournal -mode batch -notrace -source vivado_sim.tcl
+# Log file: /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/xeda_run/Xoodyak_TI_first_order_0a97138adff5aa60/vivado_sim_64c639e8163de0f5/vivado.log
+# Journal file: 
+# Running On: luke-ubuntu, OS: Linux, CPU Frequency: 2200.000 MHz, CPU Physical cores: 12, Host memory: 33554 MB
+#-----------------------------------------------------------
+source vivado_sim.tcl -notrace
+
+===========================( Analyzing HDL Sources )===========================
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC_config.vhd VHDL Standard: 93
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/NIST_LWAPI_pkg.vhd VHDL Standard: 93
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/design_pkg.vhd VHDL Standard: 93
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/xoodoo_globals.vhd VHDL Standard: 93
+Analyzing Verilog file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/xoodoo_n_rounds_SCA.v
+Analyzing Verilog file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/xoodoo_register_SCA.v
+Analyzing Verilog file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/xoodoo_round_SCA.v
+Analyzing Verilog file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/xoodoo_SCA.v
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/CryptoCore_SCA.vhd VHDL Standard: 93
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/data_piso.vhd VHDL Standard: 93
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/data_sipo.vhd VHDL Standard: 93
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/FIFO.vhd VHDL Standard: 93
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/key_piso.vhd VHDL Standard: 93
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/PreProcessor.vhd VHDL Standard: 93
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/PostProcessor.vhd VHDL Standard: 93
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/LWC/LWC_SCA.vhd VHDL Standard: 93
+Analyzing VHDL file /home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd VHDL Standard: 93
+
+===========================( *ENABLE ECHO* )===========================
+Error: INFO: [VRFC 10-163] Analyzing VHDL file "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'LWC_TB'
+ERROR: [VRFC 10-4982] syntax error near 'protected' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:137]
+ERROR: [VRFC 10-4982] syntax error near 'end' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:140]
+ERROR: [VRFC 10-4982] syntax error near 'protected' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:141]
+ERROR: [VRFC 10-1551] variable outside of subprogram or process must be 'shared' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:142]
+ERROR: [VRFC 10-1551] variable outside of subprogram or process must be 'shared' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:143]
+ERROR: [VRFC 10-4982] syntax error near 'end' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:159]
+ERROR: [VRFC 10-874] illegal selected name prefix [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:165]
+ERROR: [VRFC 10-3673] record name prefix type 'rand_state' is not a record type [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:165]
+ERROR: [VRFC 10-874] illegal selected name prefix [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:169]
+ERROR: [VRFC 10-3673] record name prefix type 'rand_state' is not a record type [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:169]
+ERROR: [VRFC 10-2989] 'timing_mode' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:234]
+ERROR: [VRFC 10-2123] 0 definitions of operator "or" match here [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:234]
+ERROR: [VRFC 10-2989] 'clk' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:273]
+ERROR: [VRFC 10-2989] 'clk_period' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:274]
+ERROR: [VRFC 10-2123] 0 definitions of operator "/" match here [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:274]
+ERROR: [VRFC 10-2989] 'clk' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:275]
+ERROR: [VRFC 10-2989] 'clk_period' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:276]
+ERROR: [VRFC 10-2123] 0 definitions of operator "/" match here [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:276]
+ERROR: [VRFC 10-2989] 'stop_clock' is not declared [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_tb/LWC_TB_SCA.vhd:272]
+INFO: [#UNDEF] Sorry, too many errors..
+child process exited abnormally
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  5 12:52:13 2022...

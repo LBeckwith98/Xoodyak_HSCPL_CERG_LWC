@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/CryptoCore_SCA.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'CryptoCore_SCA'
+ERROR: [VRFC 10-1471] type error near word_index_in_s ; current type integer; expected type std_logic_vector [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/CryptoCore_SCA.vhd:194]
+ERROR: [VRFC 10-3557] near 'std_logic_vector' ; type conversion does not match type 'std_logic' [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/CryptoCore_SCA.vhd:195]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/CryptoCore_SCA.vhd:63]
+INFO: [VRFC 10-3070] VHDL file '/home/luke/GMU/xeda_projects/Xoodyak_HSCPL_CERG_LWC/Hardware_Implementations/Xoodyak/Xoodyak_TI_first_order/src_rtl/CryptoCore_SCA.vhd' ignored due to errors

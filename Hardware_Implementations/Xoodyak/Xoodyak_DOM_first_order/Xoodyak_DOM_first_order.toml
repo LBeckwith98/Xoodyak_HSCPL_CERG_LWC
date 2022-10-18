@@ -5,6 +5,11 @@ url = "https://github.com/ybhphoenix/THU_HWSec_LWC"
 license = "GPL-3.0"
 version = "0.2.1"
 
+dependencies = [
+    { uri = "git+https://github.com/GMUCERG/LWC.git#hardware/LWC_SCA.toml", rtl.pos = 3 }, 
+    { uri = "../../../../LWC-Masking/LWC/wrapper.toml", rtl.pos = -1 },
+]
+
 [rtl]
 sources = [
     "src_rtl/LWC_config.vhd",
@@ -17,17 +22,17 @@ sources = [
     "src_rtl/xoodoo_SCA.v",
     "src_rtl/CryptoCore_SCA.vhd",
 
-    "src_rtl/LWC/data_piso.vhd",
-    "src_rtl/LWC/data_sipo.vhd",
-    "src_rtl/LWC/FIFO.vhd",
-    "src_rtl/LWC/key_piso.vhd",
-    "src_rtl/LWC/PreProcessor.vhd",
-    "src_rtl/LWC/PostProcessor.vhd",
-    ## SCA protected version of LWC top
-    "src_rtl/LWC/LWC_SCA.vhd",
+    # "src_rtl/LWC/data_piso.vhd",
+    # "src_rtl/LWC/data_sipo.vhd",
+    # "src_rtl/LWC/FIFO.vhd",
+    # "src_rtl/LWC/key_piso.vhd",
+    # "src_rtl/LWC/PreProcessor.vhd",
+    # "src_rtl/LWC/PostProcessor.vhd",
+    # ## SCA protected version of LWC top
+    # "src_rtl/LWC/LWC_SCA.vhd",
 ]
 # includes = []
-top = "LWC_SCA"
+top = "LWC_SCA_wrapper"
 clock.port = "clk"
 # clock.pin = "clk"
 # reset.pin = "rst"
@@ -35,17 +40,17 @@ clock.port = "clk"
 # reset.asynchronous = false
 # parameters = { G_GENERIC1 = 123 }
 
-[tb]
-sources = ["src_tb/LWC_TB_SCA.vhd"]
-top = "LWC_TB"
+# [tb]
+# sources = ["src_tb/LWC_TB_SCA.vhd"]
+# top = "LWC_TB"
 # includes = []
 
 [tb.parameters]
 # # {file: "xx"} is an extension to specify a string generic/parameter pointing to a relative path:
-G_FNAME_PDI = { file = "KAT/pdi.txt" }
-G_FNAME_SDI = { file = "KAT/sdi.txt" }
-G_FNAME_RDI = { file = "KAT//rdi.txt" }
-G_FNAME_DO = { file = "KAT/do.txt" }
+# G_FNAME_PDI = { file = "KAT/pdi.txt" }
+# G_FNAME_SDI = { file = "KAT/sdi.txt" }
+# G_FNAME_RDI = { file = "KAT//rdi.txt" }
+# G_FNAME_DO = { file = "KAT/do.txt" }
 G_TEST_MODE = 0 # 1: stall inputs and outputs
 G_RANDOM_STALL = true
 G_TIMEOUT_CYCLES = 1000
@@ -58,7 +63,7 @@ verilog.version = "2001"
 # systemverilog.version = "2009"
 
 [lwc.aead]
-algorithm = "xoodyakv1"
+algorithm = "xoodyakround3"
 # key_bits = 128
 # npub_bits = 128
 # tag_bits = 128
@@ -66,7 +71,7 @@ algorithm = "xoodyakv1"
 # input_sequence.decrypt = [ "npub", "ad", "ct", "tag" ]
 
 [lwc.hash]
-algorithm = "xoodyakv1"
+algorithm = "xoodyakround3"
 # digest_bits = 128
 
 [lwc.ports]
